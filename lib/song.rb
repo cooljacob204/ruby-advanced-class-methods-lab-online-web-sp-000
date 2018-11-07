@@ -52,7 +52,7 @@ class Song
   end
   
   def self.destroy_all
-    self.all
+    self.all = []
   end
 
   def save
