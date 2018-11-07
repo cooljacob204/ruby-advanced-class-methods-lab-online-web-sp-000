@@ -34,7 +34,6 @@ class Song
   end
   
   def self.new_from_filename(name)
-    binding.pry
    self.create_by_name(name.split(".mp3")[0].split(" - ")[1])
   end
 
