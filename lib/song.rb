@@ -42,6 +42,10 @@ class Song
     name = name.split(".mp3")[0].split(" - ")
     self.create_by_name_and_artist(name[1], name[0])
   end
+  
+  def self.create_from_filename(name)
+    self.new_from_filename(name)
+  end
 
   def self.all
     @@all
