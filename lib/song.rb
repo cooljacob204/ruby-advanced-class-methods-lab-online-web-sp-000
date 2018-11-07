@@ -52,6 +52,7 @@ class Song
   end
   
   def self.destroy_all
+    binding.pry
     self.all = []
   end
 
