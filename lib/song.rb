@@ -51,8 +51,8 @@ class Song
     @@all
   end
   
-  def self.all=()
-    
+  def self.all=(array)
+    @@all = array
   end
   
   def self.destroy_all
