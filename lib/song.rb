@@ -50,6 +50,10 @@ class Song
   def self.all
     @@all
   end
+  
+  def self.destroy_all
+    self.all
+  end
 
   def save
     self.class.all << self
