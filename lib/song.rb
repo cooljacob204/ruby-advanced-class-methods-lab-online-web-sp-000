@@ -48,7 +48,7 @@ class Song
   end
 
   def self.all
-    :a@@all
+    :@@all
   end
   
   def self.destroy_all
